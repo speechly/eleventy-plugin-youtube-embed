@@ -1,10 +1,10 @@
 # eleventy-plugin-youtube-embed
 
 [![NPM Version](https://img.shields.io/npm/v/eleventy-plugin-youtube-embed?style=for-the-badge)](https://www.npmjs.com/package/eleventy-plugin-youtube-embed) 
-[![Travis (.org)](https://img.shields.io/travis/gfscott/eleventy-plugin-youtube-embed?style=for-the-badge)](https://travis-ci.org/github/gfscott/eleventy-plugin-youtube-embed)
+[![Travis](https://img.shields.io/travis/com/gfscott/eleventy-plugin-youtube-embed/main?style=for-the-badge)](https://travis-ci.com/github/gfscott/eleventy-plugin-youtube-embed)
 [![codecov](https://img.shields.io/codecov/c/github/gfscott/eleventy-plugin-youtube-embed?style=for-the-badge)](https://codecov.io/gh/gfscott/eleventy-plugin-youtube-embed)\
 [![MIT License](https://img.shields.io/github/license/gfscott/eleventy-plugin-youtube-embed?style=for-the-badge)](https://github.com/gfscott/eleventy-plugin-youtube-embed/blob/master/LICENSE)
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0-ff69b4.svg?style=for-the-badge)](code_of_conduct.md)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0-ff69b4.svg?style=for-the-badge)](CODE_OF_CONDUCT.md)
 
 This [Eleventy](https://www.11ty.dev/) plugin automatically embeds responsive YouTube videos from URLs in Markdown files. It’s part of the [`eleventy-plugin-embed-everything`](https://gfscott.com/embed-everything/) project.
 
@@ -44,7 +44,7 @@ module.exports = function(eleventyConfig) {
 
 ## 🛠 Usage
 
-To embed a YouTube video into any Markdown page, paste its URL into a new line. The URL should be the only thing on that line.
+To embed a YouTube video into any Markdown page, paste its URL into a new line.
 
 ### Markdown file example:
 
@@ -77,7 +77,7 @@ eleventyConfig.addPlugin(embedYouTube, {
 
 The plugin’s default settings reside in [lib/pluginDefaults.js](lib/pluginDefaults.js). All of these values can be changed with an options object passed to the plugin.
 
-<table style="width: 100%;">
+<table style="width: 100%;" style="overflow-x: scroll">
   <thead>
     <tr>
       <td style="width:15%">Option</td>
